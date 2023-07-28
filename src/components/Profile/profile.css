@@ -1,0 +1,62 @@
+.container-div-profile {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+/* .h1-profile {
+  margin-bottom: 100px;
+} */
+
+.container-profile {
+  display: flex;
+  align-items: center;
+  margin-top: 10%;
+}
+
+.imgPerfil {
+  border-radius: 50%;
+  width: 250px;
+  margin-right: 50px;
+}
+
+.container-div-tec {
+  margin-top: 5%;
+  width: 60%;
+}
+
+.container-div-tec h2 {
+  margin-bottom: 5%;
+}
+
+.container-tec {
+  display: flex;
+  flex-direction: row;
+  align-items: end;
+  margin: 0 30px;
+  justify-content: space-between;
+  height: 83px;
+}
+
+.tecnologia {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 73px;
+}
+
+.tecnologia:hover {
+  color: rgb(200, 0, 255);
+  margin-bottom: 10px;
+}
+
+.tecnologia span {
+  font-size: smaller;
+  margin-bottom: 5px;
+}
+
+hr {
+  margin-top: 6%;
+  width: 75%;
+  border: 1px solid rgb(184, 1, 141);
+}

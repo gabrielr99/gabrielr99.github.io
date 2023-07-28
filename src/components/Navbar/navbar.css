@@ -1,0 +1,19 @@
+.container-navbar {
+  background-color: #242424;
+  height: 40px;
+  align-items: center;
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
+  position: fixed;
+  top: 0;
+  z-index: 100;
+  /* box-shadow: 1px 1px 1px 1px grey; */
+}
+
+.container-nav {
+  width: 30%;
+  display: flex;
+  justify-content: space-between;
+  margin-left: 50px;
+}
