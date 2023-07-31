@@ -1,4 +1,6 @@
 import './App.css'
+import React from 'react';
+
 import Contato from './components/Contato/Contato'
 import Footer from './components/Footer/Footer'
 import Navbar from './components/Navbar/Navbar'

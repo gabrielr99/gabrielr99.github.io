@@ -20,10 +20,10 @@ const Navbar = () => {
     <header className="container-navbar" id='inicio'>
       <span>Portifólio - Gabriel Rodrigues</span>
       <nav className='container-nav'>
-        <a href="" name='inicio' onClick={ (e) => { handleSubmit(e) } }>Inicio</a>
-        <a href="" name='sobre-mim' onClick={ (e) => { handleSubmit(e) } }>Sobre Mim</a>
-        <a href="" name='projetos' onClick={ (e) => { handleSubmit(e) } }>Projetos</a>
-        <a href="" name='contato' onClick={ (e) => { handleSubmit(e) } }>Contato</a>
+        <a href="1" name='inicio' onClick={ (e) => { handleSubmit(e) } }>Inicio</a>
+        <a href="2" name='sobre-mim' onClick={ (e) => { handleSubmit(e) } }>Sobre Mim</a>
+        <a href="3" name='projetos' onClick={ (e) => { handleSubmit(e) } }>Projetos</a>
+        <a href="4" name='contato' onClick={ (e) => { handleSubmit(e) } }>Contato</a>
       </nav>
     </header>
   );
