@@ -85,6 +85,9 @@
 .tecnologia span {
   font-size: smaller;
   margin-bottom: 5px;
+  color: rgb(104, 101, 101);
+  font-size: small;
+  font-weight: 600;
 }
 
 hr {

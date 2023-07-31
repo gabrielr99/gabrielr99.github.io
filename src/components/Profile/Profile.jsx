@@ -51,7 +51,7 @@ const Profile = () => {
             <img src={ css3 } alt="" />
           </div>
           <div className='tecnologia hidden'>
-            <span>JavaS cript</span>
+            <span>JavaScript</span>
             <img src={ javascript } alt="" />
           </div>
           <div className='tecnologia hidden'>
