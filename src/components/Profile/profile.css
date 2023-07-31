@@ -34,14 +34,14 @@
   height: 83px;
 }
 
-.hidden {
+.hidden-profile {
   opacity: 0;
   filter: blur(15px);
   transform: translateX(-100%);
   transition-duration: 2s;
 }
 
-.show {
+.show-profile {
   opacity: 1;
   filter: blur(0px);
   transform: translateX(0);

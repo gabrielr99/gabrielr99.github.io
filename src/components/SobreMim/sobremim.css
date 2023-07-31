@@ -37,3 +37,15 @@ hr {
   width: 75%;
   border: 1px solid rgb(184, 1, 141);
 }
+
+.hidden-sobremim {
+  opacity: 0;
+  filter: blur(15px);
+  transition-duration: 2s;
+}
+
+.show-sobremim {
+  opacity: 1;
+  filter: blur(0px);
+  transform: translateX(0);
+}

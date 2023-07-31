@@ -13,15 +13,15 @@ import mysql from '../../assets/mysql.png'
 
 const Profile = () => {
   useEffect(() => {
-    const elements = document.querySelectorAll('.hidden')
+    const elements = document.querySelectorAll('.hidden-profile')
 
     const myObserver = new IntersectionObserver( (entries) => {
       entries.forEach((entrie) => {
         console.log(entrie.isIntersecting)
         if(entrie.isIntersecting === true) {
-          entrie.target.classList.add('show')
+          entrie.target.classList.add('show-profile')
         } else {
-          entrie.target.classList.remove('show')
+          entrie.target.classList.remove('show-profile')
         }
       })
     })
@@ -42,35 +42,35 @@ const Profile = () => {
       <div className='container-div-tec'>
         <h2>Tecnologias</h2>
         <div className='container-tec'>
-          <div className='tecnologia hidden'>
+          <div className='tecnologia hidden-profile'>
             <span>Html5</span>
             <img src={ html5 } alt="" />
           </div>
-          <div className='tecnologia hidden'>
+          <div className='tecnologia hidden-profile'>
             <span>Css3</span>
             <img src={ css3 } alt="" />
           </div>
-          <div className='tecnologia hidden'>
+          <div className='tecnologia hidden-profile'>
             <span>JavaScript</span>
             <img src={ javascript } alt="" />
           </div>
-          <div className='tecnologia hidden'>
+          <div className='tecnologia hidden-profile'>
             <span>React</span>
             <img src={ react } alt="" />
           </div>
-          <div className='tecnologia hidden'>
+          <div className='tecnologia hidden-profile'>
             <span>Redux</span>
             <img src={ redux } alt="" />
           </div>
-          <div className='tecnologia hidden'>
+          <div className='tecnologia hidden-profile'>
             <span>Docker</span>
             <img src={ docker } alt="" />
           </div>
-          <div className='tecnologia hidden'>
+          <div className='tecnologia hidden-profile'>
             <span>NodeJS</span>
             <img src={ nodeJs } alt="" />
           </div>
-          <div className='tecnologia hidden'>
+          <div className='tecnologia hidden-profile'>
             <span>MySql</span>
             <img src={ mysql } alt="" />
           </div>
