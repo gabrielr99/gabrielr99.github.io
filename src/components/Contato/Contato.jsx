@@ -1,30 +1,32 @@
 import React from 'react';
 // import PropTypes from 'prop-types';
 import './contato.css'
+import whatsApp from '../../assets/whatsapp.png'
+import linkedIn from '../../assets/linkedin.png'
+import gitHub from '../../assets/github.png'
 
 const Contato = () => {
   return (
     <div>
       <h1 className="h1-sections" id='contato'>Contato</h1>
-      <div className='container-form'>
-        <form className='form' action="">
-          <label htmlFor="nome">
-            Nome:
-            <input type="text" name="nome" id="nome" required />
-          </label>
-          <label htmlFor="email">
-            Email:
-            <input type="email" name="email" id="email" required/>
-          </label><label htmlFor="tel">
-            Telefone:
-            <input type="tel" name="tel" id="tel" />
-          </label>
-          <label htmlFor="assunto">
-            Assunto:
-            <textarea name="" id="assunto" cols="30" rows="10" required></textarea>
-          </label>
-          <button type="submit">ENVIAR</button>
-        </form>
+      <div className='container-contato-span'>
+        <span>
+          Olá, se você gostou do meu perfil e deseja entrar em contato,<br />você pode clicar em algum dos links de sua<br />preferência e falar diretamente comigo!
+        </span>
+      </div>
+      <div className='container-contato-links'>
+        <a className='link-contato' href=" https://wa.me/5531999925346" target="_blank" rel="noopener noreferrer">
+          <img className='icon-contato' src={whatsApp} alt="" />
+        </a>
+        <a className='link-contato' href="https://www.linkedin.com/in/gabrielrd-dev/" target="_blank" rel="noopener noreferrer">
+          <img className='icon-contato' src={linkedIn} alt="" />
+        </a>
+        <a className='link-contato' href="https://github.com/gabrielr99" target="_blank" rel="noopener noreferrer">
+          <img className='icon-contato' src={gitHub} alt="" />
+        </a>
+      </div>
+      <div className='ultimo-container-contato-span'>
+        <span>Obrigado pela visita!</span>
       </div>
       <hr className='final-hr'/>
     </div>

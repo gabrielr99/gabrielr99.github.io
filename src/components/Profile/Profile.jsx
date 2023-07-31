@@ -36,7 +36,7 @@ const Profile = () => {
         <img className='imgPerfil' src={ imgPerfil } alt="Minha imagem de perfil" />
         <div>
           <h2 className='paragrah'>Gabriel Rodrigues</h2>
-          <h4 className='paragrah'>Desenvolvedor Full-Stack em desenvolvimento!</h4>
+          <h5 className='paragrah'>Desenvolvedor Full-Stack em desenvolvimento!</h5>
         </div>
       </div>
       <div className='container-div-tec'>

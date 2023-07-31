@@ -1,4 +1,4 @@
-.container-form {
+/* .container-form {
   display: flex;
   justify-content: center;
 }
@@ -45,8 +45,51 @@
 label {
   display: flex;
   flex-direction: column;
+} */
+
+.container-contato-span {
+  width: 60%;
+  margin: 80px auto;
+  align-items: center;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.ultimo-container-contato-span {
+  width: 60%;
+  margin: 100px auto 20px;
+  align-items: center;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.container-contato-span span {
+  margin-bottom: 40px;
 }
 
 .final-hr {
   width: 60%;
+}
+
+.icon-contato {
+  width: 40px;
+}
+
+.container-contato-links {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.link-contato {
+  text-decoration: none;
+  margin: 0 10px;
+  color: inherit;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }

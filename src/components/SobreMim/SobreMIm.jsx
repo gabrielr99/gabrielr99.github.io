@@ -6,7 +6,7 @@ import './sobremim.css';
 const SobreMIm = () => {
   return (
     <div className='container-div-sobremim'>
-      <h2 className='h1-sections' id='sobre-mim'>Sobre Mim</h2>
+      <h1 className='h1-sections' id='sobre-mim'>Sobre Mim</h1>
       <div className='container-paragrafos'>
         <div className='contianuer1'>
           <p className='p-sobre-mim paragrafo1'>Olá, meu nome é Gabriel, estou cursando Desenvolvimento Web FullStack na Trybe. Sou apaixonado por tecnologia, exatas, astrologia e sempre tive muita vontade de empreender, isso me fez tomar alguns caminhos no meu trajeto pós ensino médio!</p>
