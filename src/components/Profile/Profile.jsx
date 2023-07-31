@@ -1,3 +1,4 @@
+import React, { useEffect } from 'react'
 import './profile.css'
 import imgPerfil from '../../assets/perfil.jpg'
 import html5 from '../../assets/html5.png'
@@ -8,7 +9,6 @@ import redux from '../../assets/redux.png'
 import docker from '../../assets/docker.png'
 import nodeJs from '../../assets/node-js.png'
 import mysql from '../../assets/mysql.png'
-import React, { useEffect } from 'react'
 
 
 const Profile = () => {

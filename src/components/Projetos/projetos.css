@@ -1,0 +1,20 @@
+.container-projetos {
+  width: 80%;
+  margin: auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.construção {
+  width: 80%;
+  margin-top: 10px;
+  margin: auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.construção p {
+  font-size: smaller;
+}

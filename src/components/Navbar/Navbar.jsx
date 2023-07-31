@@ -1,4 +1,4 @@
-// import React from 'react';
+import React from 'react';
 // import PropTypes from 'prop-types';
 import './navbar.css'
 
@@ -20,10 +20,10 @@ const Navbar = () => {
     <header className="container-navbar" id='inicio'>
       <span>Portifólio - Gabriel Rodrigues</span>
       <nav className='container-nav'>
-        <a href="1" name='inicio' onClick={ (e) => { handleSubmit(e) } }>Inicio</a>
-        <a href="2" name='sobre-mim' onClick={ (e) => { handleSubmit(e) } }>Sobre Mim</a>
-        <a href="3" name='projetos' onClick={ (e) => { handleSubmit(e) } }>Projetos</a>
-        <a href="4" name='contato' onClick={ (e) => { handleSubmit(e) } }>Contato</a>
+        <a className='link-navbar' href="1" name='inicio' onClick={ (e) => { handleSubmit(e) } }>Inicio</a>
+        <a className='link-navbar' href="2" name='sobre-mim' onClick={ (e) => { handleSubmit(e) } }>Sobre Mim</a>
+        <a className='link-navbar' href="3" name='projetos' onClick={ (e) => { handleSubmit(e) } }>Projetos</a>
+        <a className='link-navbar' href="4" name='contato' onClick={ (e) => { handleSubmit(e) } }>Contato</a>
       </nav>
     </header>
   );
