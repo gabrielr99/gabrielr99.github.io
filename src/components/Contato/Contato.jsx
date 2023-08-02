@@ -7,7 +7,7 @@ import gitHub from '../../assets/github.png'
 
 const Contato = () => {
   return (
-    <div>
+    <div className='container-div-contato'>
       <h1 className="h1-sections" id='contato'>Contato</h1>
       <div className='container-contato-span'>
         <span>
@@ -16,12 +16,12 @@ const Contato = () => {
       </div>
       <div className='container-contato-links'>
         <a className='link-contato' href=" https://wa.me/5531999925346" target="_blank" rel="noopener noreferrer">
-          <img className='icon-contato' src={whatsApp} alt="" />
+          <img className='icon-contato whatsapp' src={whatsApp} alt="" />
         </a>
-        <a className='link-contato' href="https://www.linkedin.com/in/gabrielrd-dev/" target="_blank" rel="noopener noreferrer">
+        <a className='link-contato linkedin' href="https://www.linkedin.com/in/gabrielrd-dev/" target="_blank" rel="noopener noreferrer">
           <img className='icon-contato' src={linkedIn} alt="" />
         </a>
-        <a className='link-contato' href="https://github.com/gabrielr99" target="_blank" rel="noopener noreferrer">
+        <a className='link-contato github' href="https://github.com/gabrielr99" target="_blank" rel="noopener noreferrer">
           <img className='icon-contato' src={gitHub} alt="" />
         </a>
       </div>

@@ -1,0 +1,72 @@
+@media only screen and (max-width: 600px) {
+  hr {
+    margin: 100px 0 50px 0;
+    width: 75%;
+    border: 1px solid rgb(184, 1, 141);
+    border-radius: 5px;
+    box-shadow: 1px 1px 8px 1px rgb(184, 1, 141);
+  }
+  
+  .container-navbar {
+    display: none;
+  }
+  
+  .imgPerfil {
+    margin: auto;
+  }
+  
+  .container-div-profile {
+    max-width: 100vh;
+  }
+
+  .container-profile {
+    flex-direction: column;
+  }
+
+  .container-div-tec {
+    display: flex;
+    width: 80%;
+    flex-direction: column;
+  }
+
+  .container-tec {
+    display: flex;
+    flex-wrap: wrap;
+    height: 100%;
+    margin: 0 10%;
+  }
+
+  .container-div-sobremim {
+    max-width: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .p-sobre-mim {
+    width: 100%;
+  }
+
+
+  .container-div-contato {
+    max-width: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .container-div-projeto {
+    max-width: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .container-projetos {
+    flex-wrap: wrap;
+  }
+
+  .container-card {
+    width: 100%;
+  }
+}

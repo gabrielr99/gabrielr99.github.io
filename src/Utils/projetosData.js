@@ -3,7 +3,7 @@ import shoppingCart from '../assets/shoppingCartHomePage.png'
 
 const data = [
   {
-    name: "trybeWars",
+    name: "Trybe Wars",
     title: "Projeto feito individualemnte testando conhecimentos de React",
     img: trybeWars,
     deploy: "https://gabrielr99.github.io/project-starwars-planets-search/",
