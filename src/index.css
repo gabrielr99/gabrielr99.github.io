@@ -30,9 +30,12 @@ h1 {
 }
 
 hr {
+  margin-bottom: 4%;
   margin-top: 6%;
   width: 75%;
-  border: 1px solid rgb(184, 1, 141);
+  border: 1px solid rgb(255, 255, 255);
+  /* border: 1px solid rgb(184, 1, 141); */
   border-radius: 5px;
-  box-shadow: 1px 1px 8px 1px rgb(184, 1, 141);;
+  /* box-shadow: 1px 1px 8px 1px rgb(184, 1, 141);; */
+  box-shadow: 1px 1px 8px 1px rgb(255, 255, 255);;
 }
