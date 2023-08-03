@@ -12,9 +12,9 @@ const Cards = ({ name, title, img, deploy, code }) => {
       </span>
       <div className='buttons-card'>
         {
-          deploy && <a className='link-card' href={ deploy } target='blank'>Navegar</a>
+          deploy && <a className='link-card' href={ deploy } target='blank'>Demo</a>
         }
-        <a className='link-card' href={ code } target='blank' >Code</a>
+        <a className='link-card' href={ code } target='blank' >Source</a>
       </div>
     </div>
   );

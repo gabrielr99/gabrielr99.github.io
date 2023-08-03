@@ -46,13 +46,13 @@
 }
 
 .whatsapp:hover {
-  box-shadow: inset 0px 0px 20px 20px #ffffff42, 0px 0px 17px 1px #ffffff9c;
+  box-shadow: inset 0px 0px 20px 20px #ffffff42, 0px 0px 17px 2px #ffffff9c;
 }
 
 .linkedin:hover {
-  box-shadow: inset 0px 0px 20px 20px #ffffff42, 0px 0px 17px 1px #ffffff9c;
+  box-shadow: inset 0px 0px 20px 20px #ffffff42, 0px 0px 17px 2px #ffffff9c;
 }
 
 .github:hover {
-  box-shadow: inset 0px 0px 20px 20px #ffffff42, 0px 0px 17px 1px #ffffff9c;
+  box-shadow: inset 0px 0px 20px 20px #ffffff42, 0px 0px 17px 2px #ffffff9c;
 }
