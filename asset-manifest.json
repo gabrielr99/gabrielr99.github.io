@@ -1,18 +1,18 @@
 {
   "files": {
-    "main.css": "/static/css/main.60326f95.css",
-    "main.js": "/static/js/main.9f4ac76a.js",
+    "main.css": "/static/css/main.bbae6159.css",
+    "main.js": "/static/js/main.06f2d230.js",
     "static/js/787.aae35923.chunk.js": "/static/js/787.aae35923.chunk.js",
     "static/media/shoppingCartHomePage.png": "/static/media/shoppingCartHomePage.6a95bd916da8ab09fb24.png",
     "static/media/trybeWarsHomePage.png": "/static/media/trybeWarsHomePage.33a23232143a640541c6.png",
     "static/media/perfil.jpg": "/static/media/perfil.5230969e9ec3ef8e287a.jpg",
     "index.html": "/index.html",
-    "main.60326f95.css.map": "/static/css/main.60326f95.css.map",
-    "main.9f4ac76a.js.map": "/static/js/main.9f4ac76a.js.map",
+    "main.bbae6159.css.map": "/static/css/main.bbae6159.css.map",
+    "main.06f2d230.js.map": "/static/js/main.06f2d230.js.map",
     "787.aae35923.chunk.js.map": "/static/js/787.aae35923.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.60326f95.css",
-    "static/js/main.9f4ac76a.js"
+    "static/css/main.bbae6159.css",
+    "static/js/main.06f2d230.js"
   ]
 }
