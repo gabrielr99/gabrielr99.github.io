@@ -1,7 +1,7 @@
 import React from 'react';
+import Header from './components/Header/Header';
 import Contato from './components/Contato/Contato'
 import Footer from './components/Footer/Footer'
-import Navbar from './components/Navbar/Navbar'
 import Profile from './components/Profile/Profile'
 import Projetos from './components/Projetos/Projetos'
 import SobreMIm from './components/SobreMim/SobreMIm'
@@ -11,7 +11,7 @@ import './App.css'
 function App() {
   return (
     <main>
-      <Navbar />
+      <Header />
       <section>
         <Profile />
       </section>

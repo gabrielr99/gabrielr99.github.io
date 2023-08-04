@@ -1,8 +1,8 @@
 import React from 'react';
 // import PropTypes from 'prop-types';
-import './navbar.css'
+import './header.css'
 
-const Navbar = () => {
+const Header = () => {
   const handleSubmit = (e) => {
     e.preventDefault()
     const id = e.target.name
@@ -17,7 +17,7 @@ const Navbar = () => {
   
 
   return (
-    <header className="container-navbar" id='inicio'>
+    <header className="container-header" id='inicio'>
       <span>Portifólio - Gabriel Rodrigues</span>
       <nav className='container-nav'>
         <a className='link-navbar' href="1" name='inicio' onClick={ (e) => { handleSubmit(e) } }>Inicio</a>
@@ -33,4 +33,4 @@ const Navbar = () => {
 
 // };
 
-export default Navbar;
+export default Header;
